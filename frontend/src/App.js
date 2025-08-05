@@ -17,6 +17,7 @@ const App = () =>{
     .catch((error) => {
       console.log(err);
     })
+  setWord('');
   };
 
   return (
