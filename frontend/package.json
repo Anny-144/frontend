@@ -23,7 +23,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:prettier/recommended"
     ]
   },
   "browserslist": {
@@ -39,6 +40,9 @@
     ]
   },
   "devDependencies": {
-    "html-webpack-plugin": "^5.6.3"
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "html-webpack-plugin": "^5.6.3",
+    "prettier": "^3.6.2"
   }
 }
