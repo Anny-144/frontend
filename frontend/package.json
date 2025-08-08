@@ -27,9 +27,14 @@
       "plugin:prettier/recommended"
     ]
   },
-  "prettier": {
-    "singleQuote": true
-  },
+  
+"prettier/prettier": [
+  "error",
+  {
+    "singleQuote": true,
+    "parser": "flow"
+  }
+],
   "browserslist": {
     "production": [
       ">0.2%",
